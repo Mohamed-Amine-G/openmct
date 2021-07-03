@@ -1,0 +1,65 @@
+.parkinglog {
+  width: 100%;
+  height: 100%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+
+  button{
+    margin: 15px;
+  }
+  .list {
+    flex: 1;
+    overflow: auto;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  form{
+    margin-bottom: 10px;
+  }
+  
+  td, th {
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 8px;
+  font-size: 12px;
+  
+  }
+  
+  tr:nth-child(even) {
+  
+  }
+  img{
+    width: 200px;
+    height: 108px;
+  }
+  p{
+    font-family: sans-serif;
+  }
+  .Event{
+    width: 5%;
+  }
+  .searchbox{
+    display: inline-block;
+  }
+  label{
+    font-family: sans-serif;
+  }
+  input{
+    height: 42px;
+    margin-right: 10px;
+  }
+  .slot{
+    width: 9%;
+  }
+  .state{
+    width: 9%;
+  }
+  
+  .time{
+    width: 20%;
+  }
+}

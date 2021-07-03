@@ -1,0 +1,38 @@
+.parkingmap {
+  width: 100%;
+  height: 100%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  background:#0096ff;
+  p {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .map-container {
+    position: relative;
+    flex: 1;
+    .map{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .camera_button{
+      position: absolute;
+      top: 450px;
+      left: 280px;
+    }
+    .camera_img{
+      width: 100%;
+      height: 100%;
+    }
+    svg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

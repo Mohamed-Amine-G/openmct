@@ -1,0 +1,52 @@
+{
+    "file format version" : "1.0",
+    "site name" : "white base",
+    "image file name" : "D:\\openMCT\\test.jpeg",
+    "slots" :
+        [
+            {
+                "slot name" : "R01",
+                "slot id" : "R01",
+                "slot owner" : "White Bear",
+                "slot location" : [10.1,12,23,36,40,50,100,100]
+            },
+            {
+                "slot name" : "R02",
+                "slot id" : "R02",
+                "slot owner" : "Kevin",
+                "slot location" : [23,35,35,78,45,78,68,120]
+            },
+            {
+                "slot name" : "R03",
+                "slot id" : "R03",
+                "slot owner" : "Kevin",
+                "slot location" : [32,35,45,54,40,50,100,100]
+            },
+            {
+                "slot name" : "R04",
+                "slot id" : "R04",
+                "slot owner" : "White Bear",
+                "slot location" : [35,10.2,20,30,40,50,100,100]
+            },
+            {
+                "slot name" : "R05",
+                "slot id" : "R05",
+                "slot owner" : "Kevin",
+                "slot location" : [45,10.2,20,30,40,50,100,100]
+            }   
+        ],
+    "cameras" :
+        [
+            {
+                "camera name" : "EAST CAM",
+                "camera link" : "rtsp://admin:sc_gundam@siliconcube.asuscomm.com:8743/Streaming/Channels/101",
+                "camera location" : [200,200]
+            },
+            {
+                "camera name" : "WEST CAM",
+                "camera link" : "rtsp://admin:sc_gundam@siliconcube.asuscomm.com:8743/Streaming/Channels/101",
+                "camera location" : [300,300]
+            }
+        ]
+
+}

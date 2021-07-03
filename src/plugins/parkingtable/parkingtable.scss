@@ -1,0 +1,46 @@
+.parkingtable {
+  width: 100%;
+  height: 100%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  background:#0096ff;
+  p{
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .list {
+    flex: 1;
+    overflow: auto;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  td, th {
+  border: 3px solid #ffffff;
+  text-align: center;
+  padding: 16px;
+  font-size: 24px;
+  
+  }
+  
+  .no{
+    width: 8%;
+  }
+  .slot_name{
+    width: 16%;
+  }
+  .slot_owner{
+    width: 20%;
+  }
+  .parking_start_time{
+    width: 28%;
+  }
+  .parking_time{
+    width: 28%;
+  }
+}
